@@ -10,7 +10,7 @@ public class ShowConsole {
     public int getCode() {
         System.out.println("Ingrese Codigo");
         int codigo = scanner.nextInt();
-        System.out.println("Codigo ingresado"+codigo);
+        System.out.println("Codigo ingresado "+codigo);
         return codigo;
     }
     public void showMessage(String message){
